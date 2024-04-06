@@ -1,0 +1,42 @@
+@media (min-height: 1180px) {
+#navbar{
+    
+    flex-wrap: wrap;
+}
+}
+/* #hero{
+    height: 280px;
+    flex-direction: column;
+} */
+ 
+@media (max-height: 500px) {
+    #hero {
+      height: 150vh;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-title p {
+      width: 50%;
+    }
+  }
+      
+
+  @media (min-width: 1024px) {
+    .cta {
+      background-attachment: fixed;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .faq .container {
+      padding: 0 120px;
+    }
+  }
+  
